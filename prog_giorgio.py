@@ -63,7 +63,7 @@ class GameOfLifeGUI:
 
         # Frame per i pulsanti
         button_frame = tk.Frame(self.window)
-        button_frame.    pack()
+        button_frame.pack()
         self.button_start = tk.Button(button_frame, text='Avvia Simulazione', command=self.start_simulation)
         self.button_start.pack(side=tk.LEFT)
         self.button_load = tk.Button(button_frame, text='Carica Simulazione', command=self.load_simulation)
